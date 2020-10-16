@@ -4,6 +4,7 @@
 
 
 ## Contributors
+[Isha-Singh06](https://github.com/Isha-Singh06)
 
  ```Format : [your_username](your-profile-link)```
 
