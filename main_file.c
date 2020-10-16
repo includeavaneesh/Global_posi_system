@@ -2,8 +2,6 @@
 #include<conio.h>
 #include<string.h>
 #include<stdlib.h>
-#include<time.h>
-#include<graphics.h>
 #define INFINITY 9999
 #define MAX 10
 
