@@ -1,7 +1,7 @@
 
 struct pathStack
 {
-    int data;
+    int data, data2;
     struct pathStack *next;
 };
 struct pathStack *top=NULL;
@@ -20,6 +20,7 @@ void popDisplay()
     struct pathStack *temp;
     if (top==NULL)
         printf("\n ** Destination Arrived **");
+        printf("\n ** Test Check **");
     else
     {
         temp = top;
