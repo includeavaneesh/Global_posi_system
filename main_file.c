@@ -19,6 +19,6 @@ int main()
 {
 	scanning();
 	dijkstra();
-
+	printf("\nWelcome to GPS");
 	return 0;
 }
