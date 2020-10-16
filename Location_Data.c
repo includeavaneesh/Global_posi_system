@@ -20,6 +20,7 @@ void locAddress()
     //Location Data
     int i,j;
     system("cls");
+    Delay(3)
     printf("Enter the addresses of each location in the map:\n\n");
     for(i=0;i<n;i++)
     {
