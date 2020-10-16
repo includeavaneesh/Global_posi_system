@@ -1,15 +1,16 @@
 
 void dijkstra()
 {
-    printf("\nEnter the starting node:");
+    printf("\nEnter the value of start node:");
 	scanf("%d",&startnode);
 	
 	int cost[MAX][MAX],distance[MAX],pred[MAX];
-	int visited[MAX],count,mindistance,nextnode,i,j;
+	int visited[MAX],count,mindistance,nextnode;
+	int i,j;
 
 	//pred[] stores the predecessor of each node
 	//count gives the number of nodes seen so far
-	//create the cost matrix
+	//creating the cost matrix
 	for(i=0;i<n;i++)
 		for(j=0;j<n;j++)
 			if(G[i][j]==0)
@@ -87,5 +88,6 @@ void dijkstra()
         }
 
     printf("\n ----------------------------\n|    Destination Arrived    |\n ----------------------------\n");
+    printf("Process Complete");
 
 }
