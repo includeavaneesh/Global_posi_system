@@ -6,6 +6,8 @@ void scanning()
     int i,j;
 	printf("Enter no. of locations in the map:");
 	scanf("%d",&n);
+	int a = 10;
+	a += 5;
 	locAddress();
 	system("color 7");
 	printf("\nEnter the Mapping (adjacency matrix):\n");
