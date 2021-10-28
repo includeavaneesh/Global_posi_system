@@ -17,6 +17,8 @@ int empty();
 
 int main()
 {
+	//maintainer1: Avaneesh Kanshi
+	//maintainer2: Isha Singh
 	scanning();
 	dijkstra();
 	printf("\nWelcome to GPS");
