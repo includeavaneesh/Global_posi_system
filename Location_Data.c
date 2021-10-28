@@ -4,13 +4,13 @@ void scanning()
 {
     //mapping of the locations
     int i,j;
-	printf("Enter no. of locations in the map:");
+	printf("Enter no. of node locations in the map:");
 	scanf("%d",&n);
 	int a = 10;
 	
 	locAddress();
 	system("color 7");
-	printf("\nEnter the Mapping (adjacency matrix):\n");
+	printf("\nEnter the Mapping Matrix (adjacency matrix):\n");
 
 	for(i=0;i<n;i++)
 		for(j=0;j<n;j++)
