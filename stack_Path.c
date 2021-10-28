@@ -18,7 +18,7 @@ void push(int val)
 void popDisplay()
 {
     struct pathStack *temp;
-    if (top==NULL)
+    if (top!=NULL) //!= instead of ==
         printf("\n ** Destination Arrived **");
         printf("\n ** Test Check **");
     else
